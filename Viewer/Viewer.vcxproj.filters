@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{2d8be352-4ec1-4283-b846-f376276ca597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders">
+      <UniqueIdentifier>{1ea9ff64-ccbe-462e-ad75-76c8b09b567e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\Entities">
+      <UniqueIdentifier>{2425caa7-af30-4dfb-8e6a-d547d4d9bdf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\Models">
+      <UniqueIdentifier>{a49029a2-775d-46db-a4dc-0503cdcb6120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\GUI">
+      <UniqueIdentifier>{05c367aa-2ce6-40e1-8aa5-8ed905292dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\BufferObjects">
+      <UniqueIdentifier>{3b3bcb24-5ff5-4186-84ca-45c63c552a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\BufferObjects\FBOs">
+      <UniqueIdentifier>{3ee5ba95-afe7-40a8-ada3-a7ea164a360e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\BufferObjects\UBOs">
+      <UniqueIdentifier>{92523066-6d24-440f-a463-971f17d39b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\BufferObjects\PBOs">
+      <UniqueIdentifier>{a26d4f3b-2e77-4227-8087-2846ec393529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\BufferObjects\VAOs">
+      <UniqueIdentifier>{4a7b67f5-8d29-433c-96e2-4c04682e01b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\Camera">
+      <UniqueIdentifier>{b3c6c700-2d2c-4805-b3fc-22fce50f4f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\Scene">
+      <UniqueIdentifier>{27c95e02-3097-48b2-a090-e6bfd18369c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreHeaders\Shaders">
+      <UniqueIdentifier>{2b9c48a7-1ce9-4137-8e1f-b37ff9a82925}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demo2.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="mouse.cpp" />
+    <ClCompile Include="sceneManager.cpp" />
+    <ClCompile Include="demo3.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="demo4.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="demo5.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo6.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoProj.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demos.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="demo2.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="mouse.h" />
+    <ClInclude Include="sceneManager.h" />
+    <ClInclude Include="CoreHeaders\helper.h">
+      <Filter>CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\imageManager.h">
+      <Filter>CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\light.h">
+      <Filter>CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\material.h">
+      <Filter>CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\boundingBox.h">
+      <Filter>CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\font.h">
+      <Filter>CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\vcDefs.h">
+      <Filter>CoreHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\entity.h">
+      <Filter>CoreHeaders\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\entity_Cube_Simple.h">
+      <Filter>CoreHeaders\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\entity_GridXY.h">
+      <Filter>CoreHeaders\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\entity_SceneOrigin.h">
+      <Filter>CoreHeaders\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\entity_VAO.h">
+      <Filter>CoreHeaders\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\vao.h">
+      <Filter>CoreHeaders\BufferObjects\VAOs</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\vao_CubeV3C4.h">
+      <Filter>CoreHeaders\BufferObjects\VAOs</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\vao_GridXY.h">
+      <Filter>CoreHeaders\BufferObjects\VAOs</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\vao_SceneOrigin.h">
+      <Filter>CoreHeaders\BufferObjects\VAOs</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\eai.h">
+      <Filter>CoreHeaders\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\generalLoader.h">
+      <Filter>CoreHeaders\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\model.h">
+      <Filter>CoreHeaders\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\modelPart.h">
+      <Filter>CoreHeaders\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\objLoader.h">
+      <Filter>CoreHeaders\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\sceneGUI.h">
+      <Filter>CoreHeaders\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\guiManager.h">
+      <Filter>CoreHeaders\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\fbo.h">
+      <Filter>CoreHeaders\BufferObjects\FBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\pbo.h">
+      <Filter>CoreHeaders\BufferObjects\PBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\ubo.h">
+      <Filter>CoreHeaders\BufferObjects\UBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\bufferObject.h">
+      <Filter>CoreHeaders\BufferObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\camera.h">
+      <Filter>CoreHeaders\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\sceneData.h">
+      <Filter>CoreHeaders\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\sceneInitializer.h">
+      <Filter>CoreHeaders\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\sceneSetting.h">
+      <Filter>CoreHeaders\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\shader.h">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\shaderProgram.h">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\vao_CubeV3C4N3.h">
+      <Filter>CoreHeaders\BufferObjects\VAOs</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\entity_Cube.h">
+      <Filter>CoreHeaders\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="demo3.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="demo4.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\entity_OBJ.h">
+      <Filter>CoreHeaders\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="demo5.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo6.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoProj.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeaders\vao_CubeV3C4N3T2.h">
+      <Filter>CoreHeaders\BufferObjects\VAOs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Resources\shaders\lambert_v3_c4_n3.frag">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+    <None Include="..\..\Resources\shaders\lambert_v3_c4_n3.vert">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+    <None Include="..\..\Resources\shaders\phong_v3_c4_n3.frag">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+    <None Include="..\..\Resources\shaders\phong_v3_c4_n3.vert">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+    <None Include="..\..\Resources\shaders\adsOBJ_v3_n3_t3.frag">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+    <None Include="..\..\Resources\shaders\adsOBJ_v3_n3_t3.vert">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+    <None Include="..\..\Resources\shaders\bin_phong.frag">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+    <None Include="..\..\Resources\shaders\bin_phong.vert">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+    <None Include="..\..\Resources\shaders\adsOBJ_v3_n3_text.frag">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+    <None Include="..\..\Resources\shaders\adsOBJ_v3_n3_text.vert">
+      <Filter>CoreHeaders\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

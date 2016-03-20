@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E632EBC1-F59E-4F81-8542-7951F713A830}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Viewer", "Viewer\Viewer.vcxproj", "{331D8E21-EBFB-44D9-ADF2-751A8BEA3631}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{71FB6002-EE82-408D-868C-2D592E64D89F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{635ED5E1-6976-4540-977A-E678A6D724EC}"
+	ProjectSection(SolutionItems) = preProject
+		..\Resources\fonts\arial.ttf = ..\Resources\fonts\arial.ttf
+		..\Resources\fonts\ObelixPro.ttf = ..\Resources\fonts\ObelixPro.ttf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{76DFBBE4-DD4C-4EF6-A898-04FBDBF1E85E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basic", "basic", "{1E8B7F02-4688-4A93-83CB-643EA1C36572}"
+	ProjectSection(SolutionItems) = preProject
+		..\Resources\models\basic\bigplane.obj = ..\Resources\models\basic\bigplane.obj
+		..\Resources\models\basic\cube.obj = ..\Resources\models\basic\cube.obj
+		..\Resources\models\basic\plane.obj = ..\Resources\models\basic\plane.obj
+		..\Resources\models\basic\sphere.obj = ..\Resources\models\basic\sphere.obj
+		..\Resources\models\basic\sphereSmooth.obj = ..\Resources\models\basic\sphereSmooth.obj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "textures", "textures", "{C37EF80F-6D74-4188-96C7-E25F562FF013}"
+	ProjectSection(SolutionItems) = preProject
+		..\Resources\textures\1Dtexture.bmp = ..\Resources\textures\1Dtexture.bmp
+		..\Resources\textures\2Dtexture.bmp = ..\Resources\textures\2Dtexture.bmp
+		..\Resources\textures\Bleech.png = ..\Resources\textures\Bleech.png
+		..\Resources\textures\bricksDepth.bmp = ..\Resources\textures\bricksDepth.bmp
+		..\Resources\textures\bricksDiffuse.bmp = ..\Resources\textures\bricksDiffuse.bmp
+		..\Resources\textures\bricksNormal.bmp = ..\Resources\textures\bricksNormal.bmp
+		..\Resources\textures\cesty.bmp = ..\Resources\textures\cesty.bmp
+		..\Resources\textures\cobblestonesDepth.bmp = ..\Resources\textures\cobblestonesDepth.bmp
+		..\Resources\textures\cobblestonesDiffuse.bmp = ..\Resources\textures\cobblestonesDiffuse.bmp
+		..\Resources\textures\cobblestonesNormal.bmp = ..\Resources\textures\cobblestonesNormal.bmp
+		..\Resources\textures\grass.bmp = ..\Resources\textures\grass.bmp
+		..\Resources\textures\grass_normals.png = ..\Resources\textures\grass_normals.png
+		..\Resources\textures\grassDIFFUSE.jpg = ..\Resources\textures\grassDIFFUSE.jpg
+		..\Resources\textures\grassDISP.jpg = ..\Resources\textures\grassDISP.jpg
+		..\Resources\textures\grassNORMAL.jpg = ..\Resources\textures\grassNORMAL.jpg
+		..\Resources\textures\kinectDepth.raw = ..\Resources\textures\kinectDepth.raw
+		..\Resources\textures\lava.png = ..\Resources\textures\lava.png
+		..\Resources\textures\nx.bmp = ..\Resources\textures\nx.bmp
+		..\Resources\textures\ny.bmp = ..\Resources\textures\ny.bmp
+		..\Resources\textures\nz.bmp = ..\Resources\textures\nz.bmp
+		..\Resources\textures\Pine.png = ..\Resources\textures\Pine.png
+		..\Resources\textures\pointSprite.png = ..\Resources\textures\pointSprite.png
+		..\Resources\textures\px.bmp = ..\Resources\textures\px.bmp
+		..\Resources\textures\py.bmp = ..\Resources\textures\py.bmp
+		..\Resources\textures\pz.bmp = ..\Resources\textures\pz.bmp
+		..\Resources\textures\rainbow.bmp = ..\Resources\textures\rainbow.bmp
+		..\Resources\textures\rock.bmp = ..\Resources\textures\rock.bmp
+		..\Resources\textures\rock2_material.png = ..\Resources\textures\rock2_material.png
+		..\Resources\textures\rock2_normals.png = ..\Resources\textures\rock2_normals.png
+		..\Resources\textures\rock_normals.png = ..\Resources\textures\rock_normals.png
+		..\Resources\textures\rock_texture.png = ..\Resources\textures\rock_texture.png
+		..\Resources\textures\rockNormal.bmp = ..\Resources\textures\rockNormal.bmp
+		..\Resources\textures\sand.bmp = ..\Resources\textures\sand.bmp
+		..\Resources\textures\skala.bmp = ..\Resources\textures\skala.bmp
+		..\Resources\textures\stonewall.bmp = ..\Resources\textures\stonewall.bmp
+		..\Resources\textures\stonewallDepth.bmp = ..\Resources\textures\stonewallDepth.bmp
+		..\Resources\textures\stonewallDiffuse.bmp = ..\Resources\textures\stonewallDiffuse.bmp
+		..\Resources\textures\stonewallNormal.bmp = ..\Resources\textures\stonewallNormal.bmp
+		..\Resources\textures\stonewallnormalmap.bmp = ..\Resources\textures\stonewallnormalmap.bmp
+		..\Resources\textures\trava.bmp = ..\Resources\textures\trava.bmp
+		..\Resources\textures\vyska.bmp = ..\Resources\textures\vyska.bmp
+		..\Resources\textures\waterDIFFUSE.bmp = ..\Resources\textures\waterDIFFUSE.bmp
+		..\Resources\textures\waterNORMAL.bmp = ..\Resources\textures\waterNORMAL.bmp
+		..\Resources\textures\waterNORMAL3.bmp = ..\Resources\textures\waterNORMAL3.bmp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shaders", "shaders", "{A4C6982B-B86B-4F50-87F5-6A3AFDF93694}"
+	ProjectSection(SolutionItems) = preProject
+		..\Resources\shaders\simple_v3_c4.frag = ..\Resources\shaders\simple_v3_c4.frag
+		..\Resources\shaders\simple_v3_c4.vert = ..\Resources\shaders\simple_v3_c4.vert
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{331D8E21-EBFB-44D9-ADF2-751A8BEA3631}.Debug|Win32.ActiveCfg = Debug|x64
+		{331D8E21-EBFB-44D9-ADF2-751A8BEA3631}.Debug|Win32.Build.0 = Debug|x64
+		{331D8E21-EBFB-44D9-ADF2-751A8BEA3631}.Debug|x64.ActiveCfg = Debug|x64
+		{331D8E21-EBFB-44D9-ADF2-751A8BEA3631}.Debug|x64.Build.0 = Debug|x64
+		{331D8E21-EBFB-44D9-ADF2-751A8BEA3631}.Release|Win32.ActiveCfg = Release|Win32
+		{331D8E21-EBFB-44D9-ADF2-751A8BEA3631}.Release|Win32.Build.0 = Release|Win32
+		{331D8E21-EBFB-44D9-ADF2-751A8BEA3631}.Release|x64.ActiveCfg = Release|x64
+		{331D8E21-EBFB-44D9-ADF2-751A8BEA3631}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71FB6002-EE82-408D-868C-2D592E64D89F} = {E632EBC1-F59E-4F81-8542-7951F713A830}
+		{635ED5E1-6976-4540-977A-E678A6D724EC} = {71FB6002-EE82-408D-868C-2D592E64D89F}
+		{76DFBBE4-DD4C-4EF6-A898-04FBDBF1E85E} = {71FB6002-EE82-408D-868C-2D592E64D89F}
+		{1E8B7F02-4688-4A93-83CB-643EA1C36572} = {76DFBBE4-DD4C-4EF6-A898-04FBDBF1E85E}
+		{C37EF80F-6D74-4188-96C7-E25F562FF013} = {71FB6002-EE82-408D-868C-2D592E64D89F}
+		{A4C6982B-B86B-4F50-87F5-6A3AFDF93694} = {71FB6002-EE82-408D-868C-2D592E64D89F}
+	EndGlobalSection
+EndGlobal
